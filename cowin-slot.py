@@ -36,7 +36,7 @@ while True:
                     print("////////////////////////////////////////////////////")
                     if int(session["available_capacity"]) > 0:
                         server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-                        server.login("noreplydeveloperteam12@gmail.com", "bijuborahkvcut")
+                        server.login("noreplydeveloperteam12@gmail.com", "password")
                         if pincode == "784164":
                             server.sendmail("noreplydeveloperteam12@gmail.com", "bijuborah2017@gmail.com",
                                             "Vaccine available , Kindly check your cowin app")
